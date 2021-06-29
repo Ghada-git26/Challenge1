@@ -1,1 +1,29 @@
-border-width: 200px;
+.black-target{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding:50px; 
+    box-sizing: border-box;
+}
+
+.red-target{
+    width: 100px;
+    height: 100px;
+    border: 2px dashed black;
+    background: red;
+    box-sizing: border-box;
+}
+
+.shaped{
+    
+    width: 300px;
+    height: 150px;
+}
+
+.shaped td {
+    border: 2px solid black; 
+}
+
+.shaped tr:nth-child(2) td:nth-child(2n+1){
+    background-color: cadetblue;
+}
